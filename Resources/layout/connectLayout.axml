@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Contact Me"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:layout_gravity="center" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1">
+        <TableRow
+            android:id="@+id/tableRow1">
+            <TextView
+                android:text="Phone Number: "
+                android:layout_column="0"
+                android:id="@+id/textView10"
+                android:layout_width="120dp"
+                android:layout_marginLeft="10dp" />
+            <TextView
+                android:text="1-647-708-8494"
+                android:layout_column="1"
+                android:id="@+id/textView14" />
+            <Button
+                android:text="call"
+                android:id="@+id/callBtn"
+                android:layout_column="2" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2">
+            <TextView
+                android:text="Send Message:"
+                android:layout_column="0"
+                android:id="@+id/textView11"
+                android:layout_marginLeft="10dp" />
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_column="1" />
+            <Button
+                android:text="sms"
+                android:id="@+id/smsBtn"
+                android:layout_column="2" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <TextView
+                android:text="Email Address:"
+                android:layout_column="0"
+                android:id="@+id/textView13"
+                android:layout_marginLeft="10dp" />
+            <TextView
+                android:text="qq384958448@gmail.com"
+                android:layout_column="1"
+                android:id="@+id/textView15" />
+            <Button
+                android:text="email"
+                android:id="@+id/emailBtn"
+                android:layout_column="2" />
+        </TableRow>
+    </TableLayout>
+    <ImageView
+        android:src="@drawable/minionsbob2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1" />
+</LinearLayout>
